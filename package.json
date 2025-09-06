@@ -1,5 +1,5 @@
 {
-  "name": "fake-date",
+  "name": "@fake-date/date",
   "version": "1.0.0",
   "description": "A library to mock the current time",
   "keywords": [
