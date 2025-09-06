@@ -1,6 +1,6 @@
 {
   "name": "@fake-date/date",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library to mock the current time",
   "keywords": [
     "date",
@@ -10,7 +10,7 @@
   "license": "MIT",
   "author": "Diego Seminario",
   "type": "module",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "build": "rollup -c",
     "test": "jest",

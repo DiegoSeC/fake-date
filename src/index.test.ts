@@ -1,6 +1,6 @@
 import { describe, expect, it, afterEach } from "@jest/globals";
 
-import { FakeDate } from "./index";
+import { FakeDate } from "./index.ts";
 
 describe("FakeDate", () => {
   afterEach(() => {
