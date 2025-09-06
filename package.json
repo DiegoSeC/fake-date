@@ -1,6 +1,6 @@
 {
   "name": "@fake-date/date",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A library to mock the current time",
   "keywords": [
     "date",
