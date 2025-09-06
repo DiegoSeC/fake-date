@@ -12,7 +12,7 @@ const realNow: () => number = RealDate.now.bind(RealDate);
  * - Call `FakeDate.restore()` to restore the original Date object.
  * - Use `FakeDate.isInstalled()` to check if the FakeDate is currently installed.
  */
-class FakeDate extends Date {
+export class FakeDate extends Date {
   private static installed = false;
   private static offset = 0; // fakeNow - realNow
 
@@ -58,12 +58,3 @@ class FakeDate extends Date {
     this.offset = t - realNow();
   }
 }
-
-export default {
-  clear: FakeDate.clear,
-  install: FakeDate.install,
-  isInstalled: FakeDate.isInstalled,
-  now: FakeDate.now,
-  restore: FakeDate.restore,
-  setNow: FakeDate.setNow,
-};
