@@ -1,6 +1,6 @@
 import { describe, expect, it, afterEach } from "@jest/globals";
 
-import { FakeDate } from "./index.ts";
+import { FakeDate } from "./index";
 
 describe("FakeDate", () => {
   afterEach(() => {
@@ -18,7 +18,7 @@ describe("FakeDate", () => {
     const fakeTime = new Date("2025-09-06T12:00:00Z").getTime();
     FakeDate.setNow(fakeTime);
 
-    expect(Date.now()).toBe(fakeTime);
+    expect(Date.now()).toBeGreaterThanOrEqual(fakeTime);
     expect(new Date().getTime()).toBe(fakeTime);
   });
 

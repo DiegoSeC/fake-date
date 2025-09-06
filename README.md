@@ -17,10 +17,14 @@ A TypeScript utility for faking the current date and time in tests by overriding
 
 ### Installation
 
+```
+npm install @fake-date/date 
+```
+
 Import the class in your test setup:
 
 ```typescript
-import { FakeDate } from 'fake-date';
+import { FakeDate } from "@fake-date/date";
 ```
 
 ### API

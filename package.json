@@ -1,6 +1,6 @@
 {
   "name": "@fake-date/date",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A library to mock the current time",
   "keywords": [
     "date",
@@ -11,6 +11,7 @@
   "author": "Diego Seminario",
   "type": "module",
   "main": "dist/index.js",
+	"types": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c",
     "test": "jest",
@@ -36,5 +37,13 @@
 	"bugs": {
     "url": "https://github.com/DiegoSeC/fake-date/issues"
   },
-  "homepage": "https://github.com/DiegoSeC/fake-date"
+  "homepage": "https://github.com/DiegoSeC/fake-date",
+	"publishConfig": {
+		"access": "public"
+	},
+	"files": [
+		"dist",
+		"README.md",
+		"LICENSE"
+	]
 }
