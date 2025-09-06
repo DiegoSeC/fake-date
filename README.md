@@ -24,7 +24,7 @@ npm install @fake-date/date
 Import the class in your test setup:
 
 ```typescript
-import { FakeDate } from "@fake-date/date";
+import FakeDate from "@fake-date/date";
 ```
 
 ### API
